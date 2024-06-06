@@ -87,3 +87,26 @@ footer {
   text-align: center;
   border-top: 1px solid #ff6600;
 }
+
+@media only screen and (min-width: 992px){
+  content {
+    display: flex;
+    align-items: center;
+  }
+
+  hero {
+    display: flex;
+  }
+
+  section {
+    width: 30rem;
+  }
+
+  piramid {
+    
+  }
+
+  .box_div_1 {
+    /* width: 100%; */
+  }
+}
