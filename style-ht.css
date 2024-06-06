@@ -1,11 +1,8 @@
 * {
   box-sizing: border-box;
+  background-color: #181818;
   color: #fff;
   margin: 0px;
-}
-
-body {
-  background-color: #181818;
 }
 
 header {
@@ -19,23 +16,6 @@ header {
 
 header, .logo, .header-buttons, footer{
   background-color: #0a0a0a;
-}
-
-hero, .hero-content {
-  color: #000;
-  margin: 5%;
-}
-
-.hero-content {
-  background-color: #181818;
-}
-
-.hero-img, img {
-  display: block;
-  margin-top: 3%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
 }
 
 section {
@@ -83,8 +63,3 @@ pre {
   background-color: transparent;
 }
 
-
-footer {
-  text-align: center;
-  border-top: 1px solid #ff6600;
-}

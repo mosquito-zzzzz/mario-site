@@ -1,5 +1,4 @@
-function generatePyramid() {
-  const height = parseInt(document.getElementById("height").value);
+function generatePyramid(height) {
   if (height < 1 || height > 20 || isNaN(height)) {
     return;
   }
