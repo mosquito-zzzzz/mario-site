@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
-  background-color: #181818;
-  color: #fff
+ /* background-color: #0a0a0a; */
+  color: #fff;
+  margin: 0px;
 }
 
 header {
@@ -9,5 +10,14 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
-  border: 1px solid #ff6600;
+  border-bottom: 1px solid #ff6600;
+}
+
+header, logo, header-buttons {
+  background-color: #0a0a0a;
+}
+
+hero, .hero-content {
+  background-color: #181818;
+  color: #000;
 }
