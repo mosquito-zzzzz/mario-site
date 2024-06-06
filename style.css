@@ -13,11 +13,24 @@ header {
   border-bottom: 1px solid #ff6600;
 }
 
-header, logo, header-buttons {
+footer {
+  text-align: center;
+  border-top: 1px solid #ff6600;
+}
+
+header, .logo, .header-buttons, footer{
   background-color: #0a0a0a;
 }
 
 hero, .hero-content {
   background-color: #181818;
   color: #000;
+}
+
+.hero-img, img {
+  display: block;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
