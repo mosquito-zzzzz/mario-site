@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
- /* background-color: #0a0a0a; */
   color: #fff;
   margin: 0px;
 }
@@ -33,4 +32,46 @@ hero, .hero-content {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+}
+
+section {
+  margin: 1rem;
+  /* display: flex; */
+}
+
+input {
+  border-radius: 8px;
+  width: 10rem;
+  /* opacity: 0.7; */
+  color: #000;
+}
+
+button {
+  border-radius: 8px;
+  color: #000;
+}
+
+.box_div_1 {
+  width: 25rem;
+  height: 20rem;
+  background-color: #202020;
+  border-radius: 12px;
+  display: flex;
+  border: 2px solid #ff6000;
+}
+
+pre {
+  margin: auto;
+  color: #ff6000;
+}
+
+piramid {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+piramid, section{
+  background-color: #181818;
 }
