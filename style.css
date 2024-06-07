@@ -32,13 +32,9 @@ hero, .hero-content {
   background-color: #0a0a0a;
 }
 
-#bold-txt {}
-
 .hero-img, img {
   display: block;
-  margin-top: 3%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   border-radius: 10px;
 }
 
@@ -94,6 +90,11 @@ footer {
 }
 
 @media only screen and (min-width: 992px){
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
   li {
     display: inline;
     padding: 5px;
