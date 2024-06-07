@@ -16,6 +16,9 @@ header {
   border-bottom: 1px solid rgba(255, 102, 0, 0.5);
 }
 
+ul {
+  list-style-type: none;
+}
 
 header, .logo, .header-buttons, footer{
   background-color: #0a0a0a;
@@ -28,6 +31,8 @@ hero, .hero-content {
 .hero-content {
   background-color: #181818;
 }
+
+#bold-txt {}
 
 .hero-img, img {
   display: block;
@@ -89,6 +94,11 @@ footer {
 }
 
 @media only screen and (min-width: 992px){
+  li {
+    display: inline;
+    padding: 5px;
+  }
+
   content {
     display: flex;
     align-items: center;
@@ -96,17 +106,12 @@ footer {
 
   hero {
     display: flex;
+    margin: 2%;
+    margin-bottom: 3%;
+    width: 60%;
   }
 
   section {
     width: 30rem;
-  }
-
-  piramid {
-    
-  }
-
-  .box_div_1 {
-    /* width: 100%; */
   }
 }
