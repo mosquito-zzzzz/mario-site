@@ -20,11 +20,15 @@ ul {
   list-style-type: none;
 }
 
-header, .logo, .header-buttons, footer{
+header,
+.logo,
+.header-buttons,
+footer {
   background-color: #181818;
 }
 
-hero, .hero-content {
+hero,
+.hero-content {
   margin: 5%;
 }
 
@@ -32,10 +36,15 @@ hero, .hero-content {
   background-color: #0a0a0a;
 }
 
-.hero-img, img {
+.hero-img,
+img {
   display: block;
   margin: auto;
   border-radius: 10px;
+}
+
+piramid {
+  margin-left: 3rem;
 }
 
 section {
@@ -62,7 +71,7 @@ selection {
   border: 1px solid #ff6000;
   border-radius: 20%;
   padding: ;
-  
+
 }
 
 .box_div_1 {
@@ -89,7 +98,7 @@ footer {
   border-top: 1px solid rgba(255, 102, 0, 0.5);
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px) {
   body {
     display: flex;
     flex-direction: column;
