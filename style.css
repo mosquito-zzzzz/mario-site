@@ -70,8 +70,7 @@ selection {
   background-color: #151515;
   border: 1px solid #ff6000;
   border-radius: 20%;
-  padding: ;
-
+  padding:;
 }
 
 .box_div_1 {
@@ -85,13 +84,11 @@ selection {
   margin-left: 0px;
 }
 
-
 pre {
   margin: auto;
   color: #ffffff;
   background-color: transparent;
 }
-
 
 footer {
   text-align: center;
@@ -125,3 +122,4 @@ footer {
     width: 30rem;
   }
 }
+

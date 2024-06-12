@@ -1,77 +1,173 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link href="style.css" rel="stylesheet">
-</head>
+  <body>
+    <header>
+      <h1 class="logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="logo" />
+        </a>
+      </h1>
+      <nav>
+        <ul class="header-buttons">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="html/howto.html">How to</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header>
-    <h1 class="logo">
-      <a href="index.html">
-        <img src="images/logo.png" alt="logo">
-      </a>
-    </h1>
-    <nav>
-      <ul class="header-buttons">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="html/howto.html">How to</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  
-  <content>
-  <hero>
-    <div class="hero-content">
-      <div class="hero-text">
-        <h1>The mario problem</h1><br>
-        <p><span id="bold-txt"><b>Objective:</b></span><br>
-          The objective of the Mario (Less Comfortable) problem set is to create a program that prints a right-aligned pyramid of ‘#’ characters, resembling the iconic Mario character from the Super Mario Bros. video game series.<br>
-          <br>
-          <span id="bold-txt"><b>Input:</b></span><br>
-          The program takes an integer input from the user, representing the desired height of the pyramid.<br>
-          <br>
-          <span id="bold-txt"><b>Output:</b></span><br>
-          The program generates a right-aligned pyramid of ‘#’ characters, with the height specified by the user input.<br>
-          <br>
-          <span id="bold-txt"><b>Approach:</b></span><br>
-          The solution involves using nested loops to control the placement and number of ‘#’ characters. The outer loop iterates over the rows of the pyramid, while the inner loop iterates over the characters in each row.</p>
-        <a href="about.html">Learn how to make it</a>
-      </div>
+    <content>
+      <hero>
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>The mario problem</h1>
+            <br />
+            <p>
+              <span id="bold-txt"><b>Objective:</b></span
+              ><br />
+              The objective of the Mario (Less Comfortable) problem set is to
+              create a program that prints a right-aligned pyramid of ‘#’
+              characters, resembling the iconic Mario character from the Super
+              Mario Bros. video game series.<br />
+              <br />
+              <span id="bold-txt"><b>Input:</b></span
+              ><br />
+              The program takes an integer input from the user, representing the
+              desired height of the pyramid.<br />
+              <br />
+              <span id="bold-txt"><b>Output:</b></span
+              ><br />
+              The program generates a right-aligned pyramid of ‘#’ characters,
+              with the height specified by the user input.<br />
+              <br />
+              <span id="bold-txt"><b>Approach:</b></span
+              ><br />
+              The solution involves using nested loops to control the placement
+              and number of ‘#’ characters. The outer loop iterates over the
+              rows of the pyramid, while the inner loop iterates over the
+              characters in each row.
+            </p>
+            <a href="about.html">Learn how to make it</a>
+          </div>
 
-      <div class="hero-img">
-        <img src="https://cs50.harvard.edu/x/2024/psets/1/mario/less/pyramid.png" alt="mario">
-      </div>
-    </div>
-  </hero>
+          <div class="hero-img">
+            <img
+              src="https://cs50.harvard.edu/x/2024/psets/1/mario/less/pyramid.png"
+              alt="mario"
+            />
+          </div>
+        </div>
+      </hero>
 
-  <piramid>
-      <section>
-    <selection>
-      <button id="button" class="num" type="number" value="1" onclick="generatePyramid(1)">1</button>
-      <button id="button" class="num" type="number" value="2" onclick="generatePyramid(2)">2</button>
-      <button id="button" class="num" type="number" value="3" onclick="generatePyramid(3)">3</button>
-      <button id="button" class="num" type="number" value="4" onclick="generatePyramid(4)">4</button>
-      <button id="button" class="num" type="number" value="5" onclick="generatePyramid(5)">5</button>
-      <button id="button" class="num" type="number" value="6" onclick="generatePyramid(6)">6</button>
-      <button id="button" class="num" type="number" value="7" onclick="generatePyramid(7)">7</button>
-      <button id="button" class="num" type="number" value="8" onclick="generatePyramid(8)">8</button>
-      <button id="button" class="num" type="number" value="9" onclick="generatePyramid(9)">9</button>
-      <button id="button" class="num" type="number" onclick="generatePyramid(10)">10</button>
-    </selection>
-    <div class="box_div_1">
-      <pre id="pyramid"></pre>
-    </div>
-      </section>
-    </piramid>
-  </content>
+      <piramid>
+        <section>
+          <selection>
+            <button
+              id="button"
+              class="num"
+              type="number"
+              value="1"
+              onclick="generatePyramid(1)"
+            >
+              1
+            </button>
+            <button
+              id="button"
+              class="num"
+              type="number"
+              value="2"
+              onclick="generatePyramid(2)"
+            >
+              2
+            </button>
+            <button
+              id="button"
+              class="num"
+              type="number"
+              value="3"
+              onclick="generatePyramid(3)"
+            >
+              3
+            </button>
+            <button
+              id="button"
+              class="num"
+              type="number"
+              value="4"
+              onclick="generatePyramid(4)"
+            >
+              4
+            </button>
+            <button
+              id="button"
+              class="num"
+              type="number"
+              value="5"
+              onclick="generatePyramid(5)"
+            >
+              5
+            </button>
+            <button
+              id="button"
+              class="num"
+              type="number"
+              value="6"
+              onclick="generatePyramid(6)"
+            >
+              6
+            </button>
+            <button
+              id="button"
+              class="num"
+              type="number"
+              value="7"
+              onclick="generatePyramid(7)"
+            >
+              7
+            </button>
+            <button
+              id="button"
+              class="num"
+              type="number"
+              value="8"
+              onclick="generatePyramid(8)"
+            >
+              8
+            </button>
+            <button
+              id="button"
+              class="num"
+              type="number"
+              value="9"
+              onclick="generatePyramid(9)"
+            >
+              9
+            </button>
+            <button
+              id="button"
+              class="num"
+              type="number"
+              onclick="generatePyramid(10)"
+            >
+              10
+            </button>
+          </selection>
+          <div class="box_div_1">
+            <pre id="pyramid"></pre>
+          </div>
+        </section>
+      </piramid>
+    </content>
     <script src="script.js"></script>
-  <footer>
-    <p>Copyright free</p>
-  </footer>
-</body>
+    <footer>
+      <p>Copyright free</p>
+    </footer>
+  </body>
 </html>
